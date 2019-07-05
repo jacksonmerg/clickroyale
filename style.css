@@ -1,0 +1,90 @@
+.button {
+  display: inline-block;
+  padding: 20px 20px;
+  width: 100%;
+  font-size: 100px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.upgrade {
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.display{
+	font-size:60px;
+	font-family:Helvetica;
+	text-align:center;
+	font-weight: 900;
+	color: 00bb00;
+	text-shadow: 3px 0px #005500
+}
+#enemies {
+	width:40%;
+	float:left
+}
+#enemies2 {
+	left: 60%;
+	position: absolute;
+	width:40%;
+	vertical-align:top
+}
+.enemy {
+  margin:10px 10px 10px 10px;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FFAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centerX {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+}
+span{
+    float:center;
+    position:relative;
+    cursor:pointer;
+}
